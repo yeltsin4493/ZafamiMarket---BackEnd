@@ -1,0 +1,15 @@
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\bin\Debug\net5.0\BusinessLogic.deps.json
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\bin\Debug\net5.0\BusinessLogic.dll
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\bin\Debug\net5.0\ref\BusinessLogic.dll
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\bin\Debug\net5.0\BusinessLogic.pdb
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\bin\Debug\net5.0\Core.dll
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\bin\Debug\net5.0\Core.pdb
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.csprojAssemblyReference.cache
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.AssemblyInfo.cs
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.csproj.CopyComplete
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.dll
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\ref\BusinessLogic.dll
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.pdb
