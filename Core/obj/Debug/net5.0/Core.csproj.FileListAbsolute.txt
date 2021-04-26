@@ -2,7 +2,6 @@ C:\Project\ZafamiMarket\Zafami\Core\bin\Debug\net5.0\Core.deps.json
 C:\Project\ZafamiMarket\Zafami\Core\bin\Debug\net5.0\Core.dll
 C:\Project\ZafamiMarket\Zafami\Core\bin\Debug\net5.0\ref\Core.dll
 C:\Project\ZafamiMarket\Zafami\Core\bin\Debug\net5.0\Core.pdb
-C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
 C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
 C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
@@ -10,3 +9,6 @@ C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInpu
 C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.dll
 C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\ref\Core.dll
 C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.pdb
+C:\Project\ZafamiMarket\Zafami\Core\bin\Debug\net5.0\Core.runtimeconfig.json
+C:\Project\ZafamiMarket\Zafami\Core\bin\Debug\net5.0\Core.runtimeconfig.dev.json
+C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache
