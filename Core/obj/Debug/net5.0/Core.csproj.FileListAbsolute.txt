@@ -12,3 +12,4 @@ C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.pdb
 C:\Project\ZafamiMarket\Zafami\Core\bin\Debug\net5.0\Core.runtimeconfig.json
 C:\Project\ZafamiMarket\Zafami\Core\bin\Debug\net5.0\Core.runtimeconfig.dev.json
 C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache
+C:\Project\ZafamiMarket\Zafami\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
