@@ -13,3 +13,6 @@ C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.cspr
 C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.dll
 C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\ref\BusinessLogic.dll
 C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.pdb
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\bin\Debug\net5.0\BusinessLogic.runtimeconfig.json
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\bin\Debug\net5.0\BusinessLogic.runtimeconfig.dev.json
+C:\Project\ZafamiMarket\Zafami\BusinessLogic\obj\Debug\net5.0\BusinessLogic.genruntimeconfig.cache
