@@ -26,6 +26,7 @@ namespace WebApi
                 {
                     var context = services.GetRequiredService<ZafamiDbContext>();
                     await context.Database.MigrateAsync();
+                    await ZafamiDbContextData.LoadDataAsync(context, loggerFactory);
                 }catch(Exception e)
                 {
                     var logger = loggerFactory.CreateLogger<Program>();
