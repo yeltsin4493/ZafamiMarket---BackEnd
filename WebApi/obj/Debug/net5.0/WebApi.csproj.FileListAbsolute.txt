@@ -61,3 +61,5 @@ C:\Project\ZafamiMarket\Zafami\WebApi\obj\Debug\net5.0\WebApi.dll
 C:\Project\ZafamiMarket\Zafami\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 C:\Project\ZafamiMarket\Zafami\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Project\ZafamiMarket\Zafami\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+C:\Project\ZafamiMarket\Zafami\WebApi\bin\Debug\net5.0\Humanizer.dll
+C:\Project\ZafamiMarket\Zafami\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
