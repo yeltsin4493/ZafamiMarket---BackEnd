@@ -1,5 +1,7 @@
-﻿using Core.Entities;
+﻿using BusinessLogic.Data.Conexion;
+using Core.Entities;
 using Core.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,14 +12,26 @@ namespace BusinessLogic.Logic
 {
     public class ProductoRepository : IProductoRepository
     {
-        public Task<Producto> GetProductoByIdAsync(int id)
+        private readonly ZafamiDbContext _context;
+        public ProductoRepository(ZafamiDbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
         }
 
-        public Task<IReadOnlyList<Producto>> GetProductosAsync()
+        public async Task<Producto> GetProductoByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Producto
+                .Include(m => m.Marca)
+                .Include(c => c.Categoria)
+                .FirstOrDefaultAsync(p => p.Id == id);
+        }
+
+        public async Task<IReadOnlyList<Producto>> GetProductosAsync()
+        {
+            return await _context.Producto
+                .Include(m => m.Marca)
+                .Include(c => c.Categoria)
+                .ToListAsync();
         }
     }
 }
