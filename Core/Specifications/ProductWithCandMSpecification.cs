@@ -10,10 +10,38 @@ namespace Core.Specifications
 {
     public class ProductWithCandMSpecification : BaseSpecification<Producto>
     {
-        public ProductWithCandMSpecification()
+        public ProductWithCandMSpecification(ProductoSpecificationParams productoParams)
+            : base(x => 
+            (string.IsNullOrEmpty(productoParams.Search) || x.Nombre.Contains(productoParams.Search))&&
+            (!productoParams.Marca.HasValue || x.MarcaId == productoParams.Marca) && 
+            (!productoParams.Categoria.HasValue || x.CategoriaId == productoParams.Categoria))
         {
             AddInclude(c => c.Categoria);
             AddInclude(m => m.Marca);
+
+            ApplyPaging(productoParams.PageSize * (productoParams.PageIndex - 1), productoParams.PageSize);
+
+            if (!string.IsNullOrEmpty(productoParams.Sort))
+            {
+                switch (productoParams.Sort)
+                {
+                    case "nombreAsc":
+                        AddOrderBy(p => p.Nombre);
+                        break;
+                    case "nombreDesc":
+                        AddOrderByDescending(p => p.Nombre);
+                        break;
+                    case "precioAsc":
+                        AddOrderBy(p => p.Precio);
+                        break;
+                    case "precioDesc":
+                        AddOrderByDescending(p => p.Precio);
+                        break;
+                    default:
+                        AddOrderBy(p => p.Nombre);
+                        break;
+                }
+            }
         }
 
         public ProductWithCandMSpecification(int id) : base(x => x.Id == id)
